@@ -1,1 +1,12 @@
-somethings
+GitHub CMD cheatsheet
+
+git init    # this can be done on Browser
+git clone   # need git code from browser
+git add .   # add upon changes
+git commit -m "message" 	# you can leave relevant message in ""
+git push    # update the changes to browser
+
+
+git pull    # changes happened on browser, update the local one
+
+git status  # getting current status (need push, add, or commit)
