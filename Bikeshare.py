@@ -263,7 +263,7 @@ def main():
     station_stats()
     popular_trip_data()
     user_data()
-    display_data()
+    
     
     
     # restarts application
