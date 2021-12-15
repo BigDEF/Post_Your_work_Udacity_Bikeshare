@@ -225,33 +225,7 @@ def main():
     
     
         # allows users to see raw data from csv files
-    def display_data():
-        global df # to update value to global df
-        response = ['yes', 'no']
-        raw_data_input = ''
-        #counter variable is initialized as a tag to ensure only details from
-        #a particular point is displayed
-        counter = 0
-        while raw_data_input not in response:
-            print("\nWould you like to view the raw data? Please enter yes or no")
-            raw_data_input = input().lower()
-            #the raw data from the df is displayed if user opts for it
-            if raw_data_input == "yes":
-                print(df.head())
-            elif raw_data_input not in response:
-                print("\nOops that doesn't look right.")
-                print("Please enter yes if you would like to view the raw data or no if you do not want to view the raw data.")
-
-        # allows user to view more data
-        while raw_data_input == 'yes':
-            print("Do you wish to view more raw data?")
-            counter += 5
-            raw_data_input = input().lower()
-            #If user opts for it, this displays next 5 rows of data
-            if raw_data_input == "yes":
-                 print(df[counter:counter+5])
-            elif raw_data_input != "yes":
-                 break
+    
     
     
     
@@ -263,7 +237,7 @@ def main():
     station_stats()
     popular_trip_data()
     user_data()
-    
+   
     
     
     # restarts application
