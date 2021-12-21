@@ -15,11 +15,6 @@ washington.csv
 
 
 ### Credits
-https://stackoverflow.com/questions/7370801/how-to-measure-elapsed-time-in-python
-
-https://www.youtube.com/watch?v=SZdQX4gbql0
-
-https://stackoverflow.com/questions/53037698/how-can-i-find-the-most-frequent-two-column-combination-in-a-dataframe-in-python
 
 https://www.tilcode.com/how-to-quickly-add-lines-to-gitignore-using-the-command-line/
 
